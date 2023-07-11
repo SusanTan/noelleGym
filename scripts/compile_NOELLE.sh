@@ -2,7 +2,7 @@
 
 # Download the git repository
 if ! test -d NOELLE ; then
-  git clone https://github.com/scampanoni/noelle.git NOELLE ;
+  git clone -b splendid-integration https://github.com/SusanTan/noelle.git NOELLE ;
 fi
 
 # Compile NOELLE
